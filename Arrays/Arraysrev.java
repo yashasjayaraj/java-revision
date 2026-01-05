@@ -65,6 +65,15 @@ public class Arraysrev{
 
         printArray(arrWithValue);
 
+        // Arrays of Object 
+
+        Student s1 = new Student(1, "Yashas");
+        Student s2 = new Student(2, "Varsha");
+
+        Student[] studentArray = new Student[2];
+        studentArray[0] = s1;
+        studentArray[1] = s2;
+
     }
 
     public static void printArray(int[] arr){
